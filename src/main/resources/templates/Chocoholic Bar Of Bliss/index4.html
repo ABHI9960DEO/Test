@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+     <link rel="stylesheet" type="text/css" href="jquery-ui.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style4.css">
+    <link rel="icon" type="image/png" href="F:\CDAC\Cdac Project Data\Final Project\Logo Image\Chocoholic.png">
+
+    <link rel="stylesheet" href="../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../css/owl.theme.default.min.css">
+
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Chocoholic</title>
+  </head>
+  <body>
+
+    <div class="row">
+        <div class="col-home header col-12">
+      <nav class="navbar navbar-expand-lg navbar-light header">
+                      <a class="c mt-2" href="#"><img src="F:\CDAC\Cdac Project Data\Final Project\Logo Image\Chocoholic.png" alt="" height="60"></a>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse mt-2" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                          <li class="nav-item mr-lg-3">
+                            <a class="nav-link text-primary" href="#">HOME</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Seasonal</a>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="#">Action</a>
+                              <a class="dropdown-item" href="#">Another action</a>
+                              <a class="dropdown-item" href="#">Something else here</a>
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item" href="#">Separated link</a>
+                            </div>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Occasions</a>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="#">Action</a>
+                              <a class="dropdown-item" href="#">Another action</a>
+                              <a class="dropdown-item" href="#">Something else here</a>
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item" href="#">Separated link</a>
+                            </div>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Blogs</a>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="#">Action</a>
+                              <a class="dropdown-item" href="#">Another action</a>
+                              <a class="dropdown-item" href="#">Something else here</a>
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item" href="#">Separated link</a>
+                            </div>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dietary Treats</a>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="#">Action</a>
+                              <a class="dropdown-item" href="#">Another action</a>
+                              <a class="dropdown-item" href="#">Something else here</a>
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item" href="#">Separated link</a>
+                            </div>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Gift Ideaz</a>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="#">GIFT BOXES</a>
+                              <a class="dropdown-item" href="#">NOVELTY AND UNIQUE</a>
+                              <a class="dropdown-item" href="#">BUSINESS GIFTS</a>
+                          </li>
+                         
+                          <li>
+                            <button type="button" class="btn1 btn-danger text-white p-3 font-weight-bold">LOGIN/REGISTER</button>
+                          </li>
+                        </ul>
+                      
+                      </div><!--end of navbar-->
+                    </nav><!--end of navbar-->
+                    </div><!--end of col-home-->
+                    </div><!--end of row (nav)-->
+
+<div class="filter" > <button class="btn btn-default" type="button" data-toggle="collapse" data-target="#mobile-filter" aria-expanded="false" aria-controls="mobile-filter">Filters<span class="fa fa-filter pl-1"></span></button>
+</div>
+<div id="mobile-filter" >
+   
+   
+   
+</div>
+<section id="sidebar">
+    <div>
+        <h6>Filters</h6>
+        <form class="ml-md-2">
+          <div class="form-inline  rounded-0 p-sm-2 my-2"> <input type="radio" name="type" id="boring"> <label for="boring" class="pl-1 pt-sm-0 pt-1">Anniversary</label> </div>
+          <div class="form-inline  rounded-0 p-sm-2 my-2"> <input type="radio" name="type" id="ugly"> <label for="ugly" class="pl-1 pt-sm-0 pt-1">Artisan Chocolate</label> </div>
+          <div class="form-inline  rounded-0 p-md-2 p-sm-1"> <input type="radio" name="type" id="notugly"> <label for="notugly" class="pl-1 pt-sm-0 pt-1">Assorted Chocolate</label> </div>
+          <div class="form-inline  rounded-0 p-sm-2 my-2"> <input type="radio" name="type" id="boring"> <label for="boring" class="pl-1 pt-sm-0 pt-1">Baby Shower</label> </div>
+          <div class="form-inline  rounded-0 p-sm-2 my-2"> <input type="radio" name="type" id="ugly"> <label for="ugly" class="pl-1 pt-sm-0 pt-1">Baked Goods</label> </div>
+          <div class="form-inline  rounded-0 p-md-2 p-sm-1"> <input type="radio" name="type" id="notugly"> <label for="notugly" class="pl-1 pt-sm-0 pt-1">Birthdays</label> </div>
+          <div class="form-inline  rounded-0 p-sm-2 my-2"> <input type="radio" name="type" id="boring"> <label for="boring" class="pl-1 pt-sm-0 pt-1">Candy</label> </div>
+          <div class="form-inline  rounded-0 p-sm-2 my-2"> <input type="radio" name="type" id="ugly"> <label for="ugly" class="pl-1 pt-sm-0 pt-1">Caramel</label> </div>
+          <div class="form-inline  rounded p-md-2 p-sm-1"> <input type="radio" name="type" id="notugly"> <label for="notugly" class="pl-1 pt-sm-0 pt-1">Chocolate Sauce</label> </div>
+          <div class="form-inline rounded p-sm-2 my-2"> <input type="radio" name="type" id="boring"> <label for="boring" class="pl-1 pt-sm-0 pt-1">Christmas</label> </div>
+          <div class="form-inline  rounded p-sm-2 my-2"> <input type="radio" name="type" id="ugly"> <label for="ugly" class="pl-1 pt-sm-0 pt-1"></label>Cookies </div>
+          <div class="form-inline  rounded p-md-2 p-sm-1"> <input type="radio" name="type" id="notugly"> <label for="notugly" class="pl-1 pt-sm-0 pt-1"></label>Dark Chocolates </div>
+          <div class="form-inline  rounded p-sm-2 my-2"> <input type="radio" name="type" id="boring"> <label for="boring" class="pl-1 pt-sm-0 pt-1">Dary Free</label> </div>
+          <div class="form-inline  rounded p-sm-2 my-2"> <input type="radio" name="type" id="ugly"> <label for="ugly" class="pl-1 pt-sm-0 pt-1"></label>Easter </div>
+          <div class="form-inline rounded p-md-2 p-sm-1"> <input type="radio" name="type" id="notugly"> <label for="notugly" class="pl-1 pt-sm-0 pt-1"></label>Father's Day </div>
+          <div class="form-inline rounded p-sm-2 my-2"> <input type="radio" name="type" id="boring"> <label for="boring" class="pl-1 pt-sm-0 pt-1"></label>Features Products </div>
+          <div class="form-inline rounded p-sm-2 my-2"> <input type="radio" name="type" id="ugly"> <label for="ugly" class="pl-1 pt-sm-0 pt-1"></label>Gluten Free </div>
+          <div class="form-inline rounded p-md-2 p-sm-1"> <input type="radio" name="type" id="notugly"> <label for="notugly" class="pl-1 pt-sm-0 pt-1"></label> Mother's Day</div>
+          <div class="form-inline  rounded p-sm-2 my-2"> <input type="radio" name="type" id="boring"> <label for="boring" class="pl-1 pt-sm-0 pt-1"></label>New & Popular </div>
+          <div class="form-inline rounded p-sm-2 my-2"> <input type="radio" name="type" id="ugly"> <label for="ugly" class="pl-1 pt-sm-0 pt-1"></label>New Arrivals </div>
+          <div class="form-inline  rounded p-md-2 p-sm-1"> <input type="radio" name="type" id="notugly"> <label for="notugly" class="pl-1 pt-sm-0 pt-1"></label>Home </div>
+          <div class="form-inline  rounded p-sm-2 my-2"> <input type="radio" name="type" id="boring"> <label for="boring" class="pl-1 pt-sm-0 pt-1"></label> Novelty</div>
+          <div class="form-inline  rounded p-sm-2 my-2"> <input type="radio" name="type" id="ugly"> <label for="ugly" class="pl-1 pt-sm-0 pt-1"></label>Unique </div>
+          <div class="form-inline  rounded p-md-2 p-sm-1"> <input type="radio" name="type" id="notugly"> <label for="notugly" class="pl-1 pt-sm-0 pt-1"></label>Nut Free </div>
+          <div class="form-inline  rounded p-sm-2 my-2"> <input type="radio" name="type" id="boring"> <label for="boring" class="pl-1 pt-sm-0 pt-1"></label> Popular</div>
+          <div class="form-inline  rounded p-sm-2 my-2"> <input type="radio" name="type" id="ugly"> <label for="ugly" class="pl-1 pt-sm-0 pt-1"></label> Occasions</div>
+          <div class="form-inline  rounded p-md-2 p-sm-1"> <input type="radio" name="type" id="notugly"> <label for="notugly" class="pl-1 pt-sm-0 pt-1"></label> Organic</div>
+          <div class="form-inline  rounded p-sm-2 my-2"> <input type="radio" name="type" id="boring"> <label for="boring" class="pl-1 pt-sm-0 pt-1"></label> Peanut Butter</div>
+          <div class="form-inline  rounded p-sm-2 my-2"> <input type="radio" name="type" id="ugly"> <label for="ugly" class="pl-1 pt-sm-0 pt-1"></label>Pecan </div>
+          <div class="form-inline  rounded p-md-2 p-sm-1"> <input type="radio" name="type" id="notugly"> <label for="notugly" class="pl-1 pt-sm-0 pt-1"></label>Pretzals </div>
+          <div class="form-inline  rounded p-sm-2 my-2"> <input type="radio" name="type" id="boring"> <label for="boring" class="pl-1 pt-sm-0 pt-1"></label>Raw Chocolates </div>
+          <div class="form-inline  rounded p-sm-2 my-2"> <input type="radio" name="type" id="ugly"> <label for="ugly" class="pl-1 pt-sm-0 pt-1"></label>Seasonal </div>
+          <div class="form-inline  rounded p-md-2 p-sm-1"> <input type="radio" name="type" id="notugly"> <label for="notugly" class="pl-1 pt-sm-0 pt-1"></label> Seasonal Basket</div>
+          <div class="form-inline  rounded p-sm-2 my-2"> <input type="radio" name="type" id="boring"> <label for="boring" class="pl-1 pt-sm-0 pt-1"></label>Single Origin </div>
+          <div class="form-inline  rounded p-sm-2 my-2"> <input type="radio" name="type" id="ugly"> <label for="ugly" class="pl-1 pt-sm-0 pt-1"></label>Special Basket </div>
+          <div class="form-inline  rounded p-md-2 p-sm-1"> <input type="radio" name="type" id="notugly"> <label for="notugly" class="pl-1 pt-sm-0 pt-1"></label>Seasonal Baskets </div>
+          <div class="form-inline  rounded p-sm-2 my-2"> <input type="radio" name="type" id="boring"> <label for="boring" class="pl-1 pt-sm-0 pt-1"></label> Summer</div>
+          <div class="form-inline  rounded p-sm-2 my-2"> <input type="radio" name="type" id="ugly"> <label for="ugly" class="pl-1 pt-sm-0 pt-1"></label>Sugar Free </div>
+          <div class="form-inline  rounded p-md-2 p-sm-1"> <input type="radio" name="type" id="notugly"> <label for="notugly" class="pl-1 pt-sm-0 pt-1"></label>Tofee </div>
+          <div class="form-inline  rounded p-sm-2 my-2"> <input type="radio" name="type" id="boring"> <label for="boring" class="pl-1 pt-sm-0 pt-1"></label>Valentine's Day </div>
+          <div class="form-inline  rounded p-sm-2 my-2"> <input type="radio" name="type" id="ugly"> <label for="ugly" class="pl-1 pt-sm-0 pt-1"></label>Vegan </div>
+          <div class="form-inline  rounded p-sm-2 my-2"> <input type="radio" name="type" id="boring"> <label for="boring" class="pl-1 pt-sm-0 pt-1"></label>Truffels </div>
+          <div class="form-inline  rounded p-sm-2 my-2"> <input type="radio" name="type" id="ugly"> <label for="ugly" class="pl-1 pt-sm-0 pt-1"></label>White Chocolates </div>
+          <div class="form-inline  rounded p-sm-2 my-2"> <input type="radio" name="type" id="boring"> <label for="boring" class="pl-1 pt-sm-0 pt-1"></label> Chocolate Covered</div>
+          <div class="form-inline  rounded p-sm-2 my-2"> <input type="radio" name="type" id="ugly"> <label for="ugly" class="pl-1 pt-sm-0 pt-1"></label>Congrats </div>
+          <div class="form-inline  rounded p-md-2 p-sm-1"> <input type="radio" name="type" id="notugly"> <label for="notugly" class="pl-1 pt-sm-0 pt-1"></label> Thanks Giving</div>
+      </form>
+      </div>
+  
+</section>
+<section id="products">
+    <div class="container">
+        <div class="row">
+            <img src="https://cdn.shopify.com/s/files/1/2201/2821/collections/Chocolate_banners-82_3cab5661-8577-4669-b5f0-7046c9b254c2_1350x.png?v=1508799258" class="img-fluid" 
+            alt="image not found">
+           
+            <h3 class="theory mt-5 text-dark"><b>Vegan Chocolates & Gift Boxes</b></h3>
+            <p>Vegan Chocolate Gift, Shop for Vegan Chocolate Gift Online, where to buy online vegan chocolate gift</p>
+            
+            <h4 class="Theory1 text-dark"><b>All you need is a little love and a box of vegan chocolates!</b></h4>
+            <p>
+                Are you a chocoholic? If you aren’t then you are going to become one upon trying our chocolates and if you already are then we are giving you a good reason to indulge deeply 
+                into the sweet bliss! You can say no almost to anything but when it comes to chocolates you just can’t resist how gorgeous they look and how magnificent do they simply taste.
+            </p>
+
+            <h6 class="Theory1 text-muted"><b>Shop for Vegan Chocolate Gift Online</b></h6>
+            <p>
+                Gifting a vegan chocolate gift box to an animal lover will show how much you care about their choice and keeping that in mind only you choose the perfect gift. 
+                Not only are the chocolates cruelty free but they are also exempted from all the harmful chemicals and preservatives. Yes! We have prepared these chocolates
+                 using the natural ingredients and are 100% organic.
+                <br>
+                So, while delving into these delights you do not have won’t have any guilts. Where other chocolates are just sweet ours have been prepared by going an extra
+                 mile as we have made these cruelty-free, guilt free and health friendly.
+                <br>
+                With the vegan set you are not just showing love to the person you are gifting it to but also to the sweet innocent creatures. With this gesture of yours are
+                 promoting humanity against animals which is a great thing in itself. No matter what the occasion is, whatever is the season show love to animals with the vegan
+                  chocolate gift set.
+                  </p>
+            <br>
+            <h5 class="theory2 text-dark mb-2 mt-2">It will satisfy any chocolate connoisseur</h5> 
+            <br>
+            <p>
+            These are a pack of beautifully made chocolates that are made using the most natural ingredients and are considered as the ideal gifts for anybody.
+                </p>
+
+            <h5 class="theory2 text-dark mb-2 mt-2">Choose a Healthier and a Vegetarian Lifestyle with Vegan Chocolates</h5> 
+                <br><p>
+                    Join the league of those who have tried, tasted and thereafter fallen in love with our vegan chocolate gift set.
+                    </p>
+            <h5 class="theory2 text-dark mb-2 mt-2">Where to buy online vegan chocolate gift?</h5> 
+                    <br><p>
+                        To delve your senses in the smooth and rich texture of our chocolates you have to just place your order with us and in no time, you will receive this heavenly creation.
+                        </p>
+            <h5 class="theory2 text-dark mb-2 mt-2">Anybody with a sweet tooth craving?</h5> 
+                        <br><p>
+                            A gift with assorted chocolate box is the best way to represent you love for that person. Buy it online with us to make it more memorable chocolate gift. We are waiting for you to place your orders.
+                            </p>
+        </div>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4" id="Choco">
+        <div class="col my-4">
+          <div class="card shadow" data-aos="zoom-in-up" data-aos-duration="300">
+      
+        <div class="card  text-white border-0">
+                      <img class="card-img  " src="https://cdn.shopify.com/s/files/1/2201/2821/products/mVmhcQCKhp_512x.jpg?v=1593162040" alt="Card image" height="300">
+                      
+        </div>
+        <div class="card-body mt-1">
+          <h5 class="card-title ">Organic vegan coconul almond</h5>
+          <h6 class="text-muted">MignonChocolate</h6>
+          <hr class="bg-warning">
+          <h6 class="card-text mt-2"><b>Rs. 2,712.85</b></h6>
+          <button type="button" class="btn btn-outline-warning border "><b>Quick Look</b></button>
+          <button type="button" class="btn btn-outline-warning border "><b>Add to cart</b></button>
+        </div>
+      </div>
+        </div>
+      
+        <div class="col my-4">
+          <div class="card shadow" data-aos="zoom-in-up"
+      data-aos-duration="600">
+        <div class="card   text-white border-0">
+                      <img class="card-img" src="https://cdn.shopify.com/s/files/1/2201/2821/products/70A9RjatXu_512x.jpg?v=1593162039" alt="Card image" height="300">
+                      
+                    </div>
+        <div class="card-body">
+          <h5 class="card-title">
+            Organic vegan coconul almond
+            </h5>
+          <h6 class="text-muted">MillicanPecanCompany.</h6>
+          <hr class="bg-warning">
+          <h6 class="card-text mt-2"><b><small><s><span>Rs. 2500</span></s></small>Rs. 1,883.17</b></h6>
+          <button type="button" class="btn btn-outline-warning border "><b>Quick Look</b></button>
+          <button type="button" class="btn btn-outline-warning border "><b>Add to cart</b></button>
+        </div>
+      </div>
+        </div>
+        <div class="col my-4">
+          <div class="card shadow" data-aos="zoom-in-up"
+      data-aos-duration="900">
+        <div class="card  text-white border-0">
+                      <img class="card-img" src="https://cdn.shopify.com/s/files/1/2201/2821/products/YOKpLWcw1W_512x.jpg?v=1593164642" alt="Card image" height="300">
+                     
+                    </div>
+        <div class="card-body">
+          <h5 class="card-title ">
+           Gluten Free Caramel
+            </h5>
+          <h6 class="text-muted">MillicanPecanCompany</h6>
+          <hr class="bg-warning">
+          <h6 class="card-text mt-2"><b>Rs. 1,883.17</b></h6>
+          <button type="button" class="btn btn-outline-warning border "><b>Quick Look</b></button>
+          <button type="button" class="btn btn-outline-warning border "><b>Add to cart</b></button>
+        </div>
+      </div>
+        </div>
+      
+        <div class="col my-4">
+          <div class="card shadow" data-aos="zoom-in-up"
+      data-aos-duration="1200">
+        <div class="card text-white border-0">
+                      <img class="card-img" src="data:image/jpeg;base64,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" alt="Card image" height="208">
+                      
+                    </div>
+        <div class="card-body">
+          <h5 class="card-title ">
+            
+            Peanut Butter Cups - Milk or Dark
+           </h5>
+          <h6 class="text-muted"> Shokolate Haven</h6>
+          <hr class="bg-warning">
+          <h6 class="card-text mt-2"><b>Rs. 1,204.96</b></h6>
+          <button type="button" class="btn btn-outline-warning border "><b>Quick Look</b></button>
+          <button type="button" class="btn btn-outline-warning border "><b>Add to cart</b></button>
+        </div>
+      </div>
+        </div>
+        <div class="col my-4">
+          <div class="card shadow" data-aos="zoom-in-up"
+      data-aos-duration="1500">
+      
+        <div class="card  text-white border-0">
+                      <img class="card-img  " src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDL98quYlT6YMlJ8_zchbu65xGbcyaQlwLNg&usqp=CAU" alt="Card image" height="215">
+                    </div>
+        <div class="card-body mt-2">
+          <h5 class="card-title ">
+            Single Origin Peru Bournviile Chocolate
+           </h5>
+          <h6 class="text-muted"> Orders</h6>
+          <hr class="bg-warning">
+          <h6 class="card-text mt-2"><b>Rs. 3000.67</b></h6>
+          <button type="button" class="btn btn-outline-warning border "><b>Quick Look</b></button>
+          <button type="button" class="btn btn-outline-warning border "><b>Add to cart</b></button>
+        </div>
+      </div>
+        </div>
+        <div class="col my-4">
+          <div class="card shadow" data-aos="zoom-in-up"
+      data-aos-duration="1600">
+        <div class="card   text-white border-0">
+                      <img class="card-img" src="data:image/jpeg;base64,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" alt="Card image" height="200">
+                  
+                    </div>
+        <div class="card-body">
+          <h5 class="card-title">
+            Assortment Box Of 12 Nut And Seed Truffles
+           </h5>
+          <h6 class="text-muted"> Hnina</h6>
+          <hr class="bg-warning">
+          <h6 class="card-text mt-2"><b>Rs. 3,767.09</b></h6>
+          <button type="button" class="btn btn-outline-warning border "><b>Quick Look</b></button>
+          <button type="button" class="btn btn-outline-warning border "><b>Add to cart</b></button>
+        </div>
+      </div>
+        </div>
+        <div class="col my-4">
+          <div class="card shadow" data-aos="zoom-in-up"
+      data-aos-duration="2100">
+        <div class="card  text-white border-0">
+                      <img class="card-img" src="https://topranked.in/wp-content/uploads/2020/02/Fabelle-e1580902386876-448x450.jpg" alt="Card image" height="200">
+                     
+                    </div>
+        <div class="card-body">
+          <h5 class="card-title ">
+            Assorted Chocolate Covered Pretzels Chocos
+            </h5>
+          <h6 class="text-muted">Toblerone</h6>
+          <hr class="bg-warning">
+          <h6 class="card-text mt-2"><b>Rs. 565.18</b></h6>
+          <button type="button" class="btn btn-outline-warning border "><b>Quick Look</b></button>
+          <button type="button" class="btn btn-outline-warning border "><b>Add to cart</b></button>
+        </div>
+      </div>
+        </div>
+        <div class="col my-4">
+          <div class="card shadow" data-aos="zoom-in-up"
+      data-aos-duration="2500">
+        <div class="card text-white border-0">
+                      <img class="card-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1DW3KjSQnO8igAzF-Cpn2y_eu1Rk4PMzgqQ&usqp=CAU" alt="Card image" height="200">
+                      
+                    </div>
+        <div class="card-body">
+          <h5 class="card-title ">
+           Dark Chocolate Barien 
+            </h5>
+          <h6 class="text-muted">DarkChocolateImports,LLC</h6>
+          <hr class="bg-warning">
+          <h6 class="card-text mt-2"><b>Rs. 678.21</b></h6>
+          <button type="button" class="btn btn-outline-warning border "><b>Quick Look</b></button>
+          <button type="button" class="btn btn-outline-warning border "><b>Add to cart</b></button>
+        </div>
+      </div>
+        </div>
+      </div><!--end of choco row-->
+</section>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+</body>
+</html>
